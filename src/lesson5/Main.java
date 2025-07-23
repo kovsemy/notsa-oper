@@ -1,4 +1,6 @@
-public class Lesson5 {
+package lesson5;
+
+public class Main {
     public static void main(String[] args) {
         String[][] arr = {
                 {"4", "4", "2", "f"},
@@ -58,17 +60,5 @@ public class Lesson5 {
             }
         }
         System.out.println(sum);
-    }
-}
-
-class MyArraySizeException extends RuntimeException {
-    public MyArraySizeException(String message) {
-        super(message);
-    }
-}
-
-class MyArrayDataException extends RuntimeException {
-    public MyArrayDataException(String message) {
-        super(message);
     }
 }
